@@ -8,5 +8,8 @@ This repository contains my solutions to SQL problems from LeetCode.
 
    * Used WHERE clause with AND condition
    * Filtered based on multiple columns
+    ### Output Screenshot
 
-More solutions coming soon 🚀
+  
+  ![Output](recyclable_output.png)
+More solutions coming soon
