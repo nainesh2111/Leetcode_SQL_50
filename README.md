@@ -20,6 +20,7 @@ This repository contains my solutions to SQL problems from LeetCode.
   * Filtered customers not referred by id = 2
 
   ### Output Screenshot:**
-  ![Output].(images/Find_Customer_Referee.png).
+
+  ![Output](Find_Customer_Referee.png)
 
 More solutions coming soon
