@@ -12,4 +12,14 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   
   ![Output](recyclable_output.png)
+
+2. Find Customer Referee
+
+  * Used `WHERE` clause with `OR` condition
+  * Handled `NULL` values using `IS NULL`
+  * Filtered customers not referred by id = 2
+
+  ### Output Screenshot:**
+  ![Output].(images/Find_Customer_Referee.png).
+
 More solutions coming soon
