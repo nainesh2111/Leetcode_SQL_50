@@ -23,4 +23,18 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ![Output](Find_Customer_Referee.png)
 
+3. Big Countries
+
+* Used `SELECT` to retrieve name, population, area
+* Applied `WHERE` clause with `OR` condition
+* Filtered countries based on:
+
+  * area ≥ 3,000,000
+  * OR population ≥ 25,000,000
+ 
+  ### Output Screenshot:**
+
+  ![Output](big_countries.png) 
+
+
 More solutions coming soon
