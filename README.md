@@ -28,13 +28,22 @@ This repository contains my solutions to SQL problems from LeetCode.
 * Used `SELECT` to retrieve name, population, area
 * Applied `WHERE` clause with `OR` condition
 * Filtered countries based on:
-
   * area ≥ 3,000,000
   * OR population ≥ 25,000,000
  
   ### Output Screenshot:**
 
-  ![Output](big_countries.png) 
+  ![Output](big_countries.png)
+
+4. Article Views I
+* Used SELECT DISTINCT to avoid duplicate author IDs
+* Filtered records where the author viewed their own article
+* Applied condition: author_id = viewer_id
+* Sorted results using ORDER BY
+
+  ### Output Screenshot:**
+
+  ![Output](article_view.png)
 
 
 More solutions coming soon
