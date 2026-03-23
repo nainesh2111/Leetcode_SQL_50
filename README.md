@@ -45,5 +45,15 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ![Output](article_view.png)
 
+5. Invalid Tweets
+* Used SELECT to retrieve tweet IDs
+* Applied WHERE clause to filter invalid tweets
+* Used LENGTH() function to check content size
+* Condition: content length greater than 15 characters
+
+ ### Output Screenshot:**
+
+ ![Output](Invalid_tweets.png)
+
 
 More solutions coming soon
