@@ -55,5 +55,15 @@ This repository contains my solutions to SQL problems from LeetCode.
 
  ![Output](Invalid_tweets.png)
 
+ 6. Employees and Employee Unique IDs
+* Used `LEFT JOIN` to combine Employees and EmployeeUNI tables
+* Retrieved unique_id and employee name for all employees
+* Handled cases where employees may not have a unique ID
+* Ensured all employee records are included even if unique_id doesn't exist
+
+### Output Screenshot:**
+*  ![Output](replace_emp_id_with_unique_identifier.png)
+
+
 
 More solutions coming soon
