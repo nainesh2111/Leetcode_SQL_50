@@ -64,6 +64,15 @@ This repository contains my solutions to SQL problems from LeetCode.
 ### Output Screenshot:**
 *  ![Output](replace_emp_id_with_unique_identifier.png)
 
+ 7. Product Sales Analysis
+* Used `JOIN` to combine Sales and Product tables
+* Retrieved product name, year, and price information
+* Matched records using product_id foreign key
+* Displayed sales data with corresponding product details
+
+* ### Output Screenshot:**
+*  ![Output](Product_Sales_Analysis_1.png)
+
 
 
 More solutions coming soon
