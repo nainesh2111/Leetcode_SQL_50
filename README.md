@@ -62,7 +62,7 @@ This repository contains my solutions to SQL problems from LeetCode.
 * Ensured all employee records are included even if unique_id doesn't exist
 
 ### Output Screenshot:**
-*  ![Output](replace_emp_id_with_unique_identifier.png)
+* ![Output](replace_emp_id_with_unique_identifier.png)
 
  7. Product Sales Analysis
 * Used `JOIN` to combine Sales and Product tables
@@ -70,9 +70,17 @@ This repository contains my solutions to SQL problems from LeetCode.
 * Matched records using product_id foreign key
 * Displayed sales data with corresponding product details
 
-* ### Output Screenshot:**
-*  ![Output](Product_Sales_Analysis_1.png)
+ ### Output Screenshot:**
+ ![Output](Product_Sales_Analysis_1.png)
 
+ 8. Employee Bonus
+* Used `LEFT JOIN` to combine Employee and Bonus tables
+* Retrieved employee name and bonus amount
+* Matched records using empId foreign key
+* Filtered employees with bonus less than 1000 or no bonus
+* Handled `NULL` values to include employees without bonuses 
 
+### Output Screenshot:**
+ ![Output](employee_bonus.png)
 
 More solutions coming soon
