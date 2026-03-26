@@ -83,4 +83,17 @@ This repository contains my solutions to SQL problems from LeetCode.
 ### Output Screenshot:**
  ![Output](employee_bonus.png)
 
+9. Average Time of Process by Machine
+* Used `JOIN` to combine Activity table with itself
+* Retrieved machine_id and calculated average processing time
+* Matched records using machine_id and process_id
+* Filtered for 'start' and 'end' activity types
+* Used `ROUND()` function to round result to 3 decimal places
+* Grouped results by machine_id to aggregate processing times
+
+  ### Output Screenshot:**
+ ![Output](avg_time_of_process_per_machine).png)
+
+
+
 More solutions coming soon
