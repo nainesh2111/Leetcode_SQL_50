@@ -92,7 +92,7 @@ This repository contains my solutions to SQL problems from LeetCode.
 * Grouped results by machine_id to aggregate processing times
 
   ### Output Screenshot:**
- ![Output](avg_time_of_process_per_machine).png)
+ ![Output](avg_time_of_process_per_machine.png)
 
 
 
