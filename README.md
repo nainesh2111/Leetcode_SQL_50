@@ -94,6 +94,17 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](avg_time_of_process_per_machine.png)
 
+ 9. Customers Who Never Made a Purchase
 
+* Used `LEFT JOIN` to combine Visits and Transactions tables
+* Retrieved customer_id and count of visits without transactions
+* Matched records using visit_id foreign key
+* Filtered visits with no corresponding transactions using `IS NULL`
+* Used `GROUP BY` to aggregate results by customer
+* Used `COUNT(*)` to count visits per customer
+
+  ### Output Screenshot:**
+ ![Output](customer_visit_but_didnt_make_trans.png)
+ 
 
 More solutions coming soon
