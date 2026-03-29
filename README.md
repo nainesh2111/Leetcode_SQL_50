@@ -116,6 +116,19 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ### Output Screenshot:**
  ![Output](rising_temp.png)
+
+ 12. Student Attendance Record II
+
+* Used `CROSS JOIN` to generate all possible combinations of students and subjects
+* Used `LEFT JOIN` to match examination records for each student-subject pair
+* Retrieved student_id, student_name, subject_name, and count of attended exams
+* Used `COUNT()` to aggregate examination attendance per student-subject combination
+* Handled students who didn't attend exams using LEFT JOIN (returns NULL counts)
+* Used `GROUP BY` to group results by student and subject
+* Used `ORDER BY` to sort by student_id and subject_name
+
+  ### Output Screenshot:**
+ ![Output](student_and_exam.png)
  
 
 More solutions coming soon
