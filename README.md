@@ -105,6 +105,17 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ### Output Screenshot:**
  ![Output](customer_visit_but_didnt_make_trans.png)
+
+ 10. Rising Temperature
+
+* Used `JOIN` to self-join Weather table (present and next day records)
+* Retrieved id of days with temperature higher than previous day
+* Matched records using `DATE_SUB()` to compare consecutive days
+* Filtered days where temperature increased from previous day
+* Used date arithmetic to find day-over-day temperature changes
+
+  ### Output Screenshot:**
+ ![Output](rising_temp.png)
  
 
 More solutions coming soon
