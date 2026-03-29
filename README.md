@@ -129,6 +129,19 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ### Output Screenshot:**
  ![Output](student_and_exam.png)
+
+ 13. Managers with at Least 5 Direct Reports
+
+* Used `JOIN` to self-join Employee table (manager and employee records)
+* Retrieved names of managers who supervise 5 or more employees
+* Matched records using managerId to find direct reports
+* Used `GROUP BY` to group employees by their manager
+* Used `COUNT(*)` to count direct reports per manager
+* Used `HAVING` clause to filter managers with 5 or more direct reports
+* Applied aggregate filtering after grouping (HAVING vs WHERE)
+
+  ### Output Screenshot:**
+ ![Output](manager_with_atleast5_direct_report.png)
  
 
 More solutions coming soon
