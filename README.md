@@ -94,7 +94,7 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](avg_time_of_process_per_machine.png)
 
- 9. Customers Who Never Made a Purchase
+ 10. Customers Who Never Made a Purchase
 
 * Used `LEFT JOIN` to combine Visits and Transactions tables
 * Retrieved customer_id and count of visits without transactions
@@ -106,7 +106,7 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](customer_visit_but_didnt_make_trans.png)
 
- 10. Rising Temperature
+ 11. Rising Temperature
 
 * Used `JOIN` to self-join Weather table (present and next day records)
 * Retrieved id of days with temperature higher than previous day
