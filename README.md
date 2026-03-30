@@ -142,6 +142,21 @@ This repository contains my solutions to SQL problems from LeetCode.
 
   ### Output Screenshot:**
  ![Output](manager_with_atleast5_direct_report.png)
+
+ 13. User Confirmation Rate
+
+* Used `LEFT JOIN` to combine Signups and Confirmations tables
+* Retrieved user_id and calculated confirmation rate for each user
+* Used `CASE` statement to count confirmed actions (action = 'confirmed')
+* Calculated confirmation rate as confirmed actions divided by total actions
+* Used `IFNULL()` to handle users with no confirmations (returns 0)
+* Used `ROUND()` to round confirmation rate to 2 decimal places
+* Used `GROUP BY` to aggregate results per user
+* Handled edge cases where users have no confirmation records
+
+  ### Output Screenshot:**
+ ![Output](confirmation_rate.png)
+
  
 
 More solutions coming soon
