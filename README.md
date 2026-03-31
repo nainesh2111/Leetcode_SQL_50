@@ -157,6 +157,15 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](confirmation_rate.png)
 
- 
+ 14. Movie Ratings
+
+* Retrieved id, movie, description, and rating from Cinema table
+* Filtered out movies with 'boring' description using `!=` operator
+* Filtered for movies with odd id values using modulo operator (id % 2 <> 0)
+* Used `ORDER BY` to sort results by rating in descending order
+* Applied multiple conditions using `AND` operator
+
+ ### Output Screenshot:**
+ ![Output](not_boring_movies.png)
 
 More solutions coming soon
