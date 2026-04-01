@@ -176,6 +176,6 @@ This repository contains my solutions to SQL problems from LeetCode.
 * Grouped data by project_id
 
   ### Output Screenshot:**
- ![Output](project_employee_1.png)
+ ![Output](project_employee.png)
 
 More solutions coming soon
