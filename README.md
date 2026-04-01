@@ -143,7 +143,7 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](manager_with_atleast5_direct_report.png)
 
- 13. User Confirmation Rate
+ 14. User Confirmation Rate
 
 * Used `LEFT JOIN` to combine Signups and Confirmations tables
 * Retrieved user_id and calculated confirmation rate for each user
@@ -157,7 +157,7 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](confirmation_rate.png)
 
- 14. Movie Ratings
+ 15. Movie Ratings
 
 * Retrieved id, movie, description, and rating from Cinema table
 * Filtered out movies with 'boring' description using `!=` operator
@@ -167,5 +167,15 @@ This repository contains my solutions to SQL problems from LeetCode.
 
  ### Output Screenshot:**
  ![Output](not_boring_movies.png)
+
+ 16. Prjoect Employee 1
+
+ * Used LEFT JOIN to combine Project and Employee tables
+* Calculated average experience using AVG()
+* Rounded results to 2 decimal places using ROUND()
+* Grouped data by project_id
+
+  ### Output Screenshot:**
+ ![Output](project_employee_1.png)
 
 More solutions coming soon
