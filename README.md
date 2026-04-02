@@ -178,4 +178,16 @@ This repository contains my solutions to SQL problems from LeetCode.
   ### Output Screenshot:**
  ![Output](project_employee.png)
 
+ 17. Percentage of Users Registered per Contest
+
+* Used `COUNT()` to calculate total registrations per contest
+* Used subquery to get total number of users
+* Calculated percentage using `(count / total_users) * 100`
+* Rounded result using `ROUND()`
+* Sorted results using `ORDER BY percentage DESC, contest_id`
+
+### Output Screenshot:
+![Output](perc_of_user_attend_contest.png)
+
+
 More solutions coming soon
